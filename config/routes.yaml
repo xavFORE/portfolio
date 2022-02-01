@@ -1,3 +1,25 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+
+#index:
+#    path: /
+#    controller: App\Controller\PorfolioController::index
+
+CV:
+    path: /CV
+    controller: App\Controller\PorfolioController::CV
+
+damierBack:
+    path: /damierBack
+    controller: App\Controller\PorfolioController::damierBack
+
+damierFront:
+    path: /damierFront
+    controller: App\Controller\PorfolioController::damierFront
+
+contact:
+    path: /contact
+    controller: App\Controller\PorfolioController::contact
+

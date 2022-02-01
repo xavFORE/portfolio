@@ -1,0 +1,29 @@
+.bar-top
+{
+    height: 120px;
+    width: 80%;
+    margin:auto;
+    background-color: green;
+    color: white;
+}
+
+.work-space
+{
+    height: 400px;
+    width: 80%;
+    margin:auto;
+    background-color: red;
+
+}
+
+
+.bar-bottom
+{
+    height: 80px;
+    width: 80%;
+    margin:auto;
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    text-align: center;    
+}
