@@ -1,0 +1,153 @@
+.bandeau
+{
+    justify-content: center;
+    box-shadow:  0px 2px 12px 5px rgb(121, 81, 36) ;
+    color: rgb(39, 29, 18);
+    width: 90%;
+   
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6LpbRy9SLUcyi_uxSQP37QN9kyQEZLupXyw&usqp=CAU.jpg);
+}
+
+body
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAL2WzqFRpd9eXV4z0IHPHqT5Rpvga75NV9w&usqp=CAU.jpg);
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-size: cover;
+ 
+}
+
+
+.container 
+{
+
+    color: rgb(10, 32, 27);
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+
+.vignette
+{
+    height: 200px;
+    background-color: rgb(233, 173, 124);
+    margin: 1px;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+    transition-delay: 1s;
+    transition-duration: 2s;
+    color: black;
+}
+.tata
+{
+    color: rgb(9, 37, 44);
+   
+}
+.lala
+{
+  
+    background-color: rgb(134, 128, 43);
+}
+.lolo
+{
+    
+    background-color: rgb(165, 110, 44);
+}
+.mama
+{
+  
+    background-color: rgb(143, 88, 117);
+}
+.baba
+{
+    
+    background-color: rgb(81, 102, 122);
+}
+.coco
+{
+    
+    background-color: rgb(126, 116, 63);
+}
+.mimi
+{
+   
+    background-color: rgb(100, 122, 66);
+}
+
+.foto
+{
+    height: 200px;
+    background-color:rgb(117, 96, 76);
+    margin-top: 1px;
+    
+    
+}
+
+.m0
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.myText
+{
+    color: rgb(14, 12, 12);
+    text-align: justify;
+    text-justify: auto;
+}
+
+.myFoto
+{
+    width: 90%;
+    height: 90%;
+    object-fit: scale-down;
+    
+  
+}
+.maPhoto
+{
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+    
+  
+}
+
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+ 
+  
+  .flip-box-back {
+    
+    color: rgb(71, 43, 6);
+    transform: rotateY(180deg);
+  
+  }
+  .btn
+  {
+      background-color: rgb(17, 50, 54);
+  }
+
+
+

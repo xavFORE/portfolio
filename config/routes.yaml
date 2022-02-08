@@ -11,6 +11,14 @@ CV:
     path: /CV
     controller: App\Controller\PorfolioController::CV
 
+CVH:
+    path: /CVH
+    controller: App\Controller\PorfolioController::CVH
+
+CVK:
+    path: /CVK
+    controller: App\Controller\PorfolioController::CVK
+
 damierBack:
     path: /damierBack
     controller: App\Controller\PorfolioController::damierBack
@@ -23,3 +31,14 @@ contact:
     path: /contact
     controller: App\Controller\PorfolioController::contact
 
+upload:
+    path: /upload
+    controller: App\Controller\PorfolioController::upload
+
+downloadlist:
+    path: /downloadlist
+    controller: App\Controller\PorfolioController::downloadlist
+
+download:
+    path: /download/{id}
+    controller: App\Controller\PorfolioController::download

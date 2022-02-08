@@ -7,23 +7,50 @@
     color: white;
 }
 
-.work-space
+.workSpace
 {
-    height: 400px;
-    width: 80%;
+    height: 450px;
+    width: 90%;
     margin:auto;
     background-color: red;
 
 }
 
+.workContent
+{
+    height: 100%;
+    width: 80%;
+    margin:auto;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.buttonRight
+{
+    height: 100%;
+    width: 8%;
+    background-color: blue;
+    display: inline-block;
+}
+
+.buttonLeft
+{
+    height: 100%;
+    width: 8%;
+    background-color: blue;
+    display: inline-block;
+}
+
 
 .bar-bottom
 {
+    position: absolute;
     height: 80px;
     width: 80%;
     margin:auto;
     background-color: gray;
     color: white;
     font-size: 12px;
-    text-align: center;    
+    text-align: center;
+    bottom:  0px;    
 }

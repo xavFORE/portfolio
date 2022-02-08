@@ -1,0 +1,21 @@
+{% extends 'porfolio/base.html.twig' %}
+
+{% block title %}
+    UPLOAD FICHIER
+{% endblock %}
+
+
+{% block workSpace %}
+<div>
+
+{% for upload in listUp %}
+
+    <a href="{{ path( 'download',{'id':upload.id} ) }}">
+    <h3>{{ upload.titre }}</h3>
+    </a>
+
+{% endfor %}
+
+
+</div>
+{% endblock %}

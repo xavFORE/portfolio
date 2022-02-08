@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+a
+{
+    text-decoration: none;
+}
+
+
+/* BANDE ORANGE */
+
+.marge{
+    /*border: solid 2px black;*/
+    background-color: orange;
+    width: 25%;
+}
+
+.bandeOrange{
+    /*border: solid 2px black;*/
+    background-color: orange;
+    color: white;
+}
+
+.bandeBlanche
+{
+    /*border: solid 2px black;*/
+    background-color: white;
+    color: black;
+}
+
+.infos{
+    /*border: solid 2px black;*/
+    background-color: orange;
+    width: 25%;
+    
+}
+
+
+.colorTable a
+{
+    color: black;
+}
+
+.colorTable a:hover
+{
+    background-color: lightgray;
+}
+
+
+.titre2
+{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.date
+{
+    color: gray;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.description
+{
+    font-size: 22px;
+    color: black;
+    display: block;
+}
+
+.etablissement
+{
+    font-size: 20px;
+    color: orange;
+    display: inline;
+}
+
+.ville
+{
+    font-size: 20px;
+    color: black;
+    display: inline;
+}
+
+.competences{
+    font-size: 25px;
+    color:grey;
+}
+
+.tel{
+    font:20px !important;
+}
+
+
+.accroche{
+    color:lightgray;
+}
+
+.heartbeat {
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+.langues{
+        position: relative;
+        top:300px;
+}
+
+
+
+ .voyages{
+        position: relative;
+        top:400px;
+}
+
+
+ .centre{
+        position: relative;
+        top:500px;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation heartbeat
+ * ----------------------------------------
+ */
+ @-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  

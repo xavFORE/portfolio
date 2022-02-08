@@ -1,0 +1,19 @@
+{% extends 'porfolio/base.html.twig' %}
+
+{% block title %}
+    UPLOAD FICHIER
+{% endblock %}
+
+
+{% block workSpace %}
+<div>
+
+  <h1>{{ upload.titre }}</h1>
+  <h2>{{ upload.ficNameOrigine }}</h2>
+  <br>
+  {{ absolute_url( asset( 'file' }}/{{ upload.ficNameOrigine }}
+  
+
+
+</div>
+{% endblock %}
